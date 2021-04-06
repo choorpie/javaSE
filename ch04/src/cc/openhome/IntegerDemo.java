@@ -12,7 +12,7 @@ public class IntegerDemo {
 		Integer data2 = 20;
 		
 		System.out.println(data1 / 3); // 基本型態運算
-		System.out.println(wrapper1.doubleValue() / 3); // 操作包裹器方法
-		System.out.println(wrapper1.compareTo(wrapper2));
+		System.out.println(data1.doubleValue() / 3); // 操作包裹器方法
+		System.out.println(data1.compareTo(data2));
 	}
 }

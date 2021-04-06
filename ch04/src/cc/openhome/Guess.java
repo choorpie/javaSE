@@ -14,6 +14,8 @@ public class Guess {
 		} while(guess!=number);
 		
 		System.out.println("²q¤¤¤F¡I...XD");
+		
+		console.close();
 	}
 
 }
