@@ -12,7 +12,7 @@ public class RPG {
 		swordsMan.setName("Justin");
 		swordsMan.setLevel(1);
 		swordsMan.setBlood(200);
-		System.out.printf("¼C¤h¡G(%s, %d, %d)%n",
+		System.out.printf("åŠå£«ï¼š(%s, %d, %d)%n",
 				swordsMan.getName(), swordsMan.getLevel(), swordsMan.getBlood());
 	}
 	
@@ -21,7 +21,7 @@ public class RPG {
 		magician.setName("Monica");
 		magician.setLevel(1);
 		magician.setBlood(100);
-		System.out.printf("Å]ªk®v¡G(%s, %d, %d)%n",
+		System.out.printf("é­”æ³•å¸«ï¼š(%s, %d, %d)%n",
 				magician.getName(), magician.getLevel(), magician.getBlood());
 	}
 }
