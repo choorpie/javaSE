@@ -1,9 +1,9 @@
 package cc.openhome;
 
 class CashCard {
-	String number;
-	int balance;
-	int bonus;
+	private String number;
+	private int balance;
+	private int bonus;
 	
 	CashCard(String number, int balance, int bonus){
 		this.number = number;
@@ -42,5 +42,17 @@ class CashCard {
 			this.bonus-=bonus;
 		}
 		return this.bonus;
+	}
+	
+	int getBalance() {
+		return balance;
+	}
+	
+	int getBonus() {
+		return bonus;
+	}
+	
+	String getNumber() {
+		return number;
 	}
 }
