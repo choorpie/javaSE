@@ -2,6 +2,6 @@ package cc.openhome;
 
 public class SwordsMan extends Role {
 	public void fight() {
-		System.out.println("´§¼C§ğÀ»");
+		System.out.println("æ®åŠæ”»æ“Š");
 	}
 }

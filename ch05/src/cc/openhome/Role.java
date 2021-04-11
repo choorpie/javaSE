@@ -28,4 +28,8 @@ public class Role {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public void fight() {
+		// 子類別要重新定義 fight() 的實作
+	}
 }
